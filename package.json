@@ -1,0 +1,23 @@
+{
+  "name": "zksnark-proof-of-reserves",
+  "version": "1.0.0",
+  "description": "zk-SNARK based Proof of Reserves POC for Crypto Exchange",
+  "main": "index.js",
+  "scripts": {
+    "setup": "node scripts/1-setup.js",
+    "generate-proof": "node scripts/2-generate-proof.js",
+    "verify-proof": "node scripts/3-verify-proof.js",
+    "full-demo": "npm run setup && npm run generate-proof && npm run verify-proof"
+  },
+  "keywords": [
+    "zk-snark",
+    "proof-of-reserves",
+    "zero-knowledge"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "circomlib": "^2.0.5",
+    "snarkjs": "^0.7.5"
+  }
+}

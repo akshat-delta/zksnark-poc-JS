@@ -1,0 +1,33 @@
+{
+  "exchangeName": "CryptoExchange Demo",
+  "publicWalletAddress": "bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh",
+  "totalReserves": 101,
+  "currency": "BTC",
+  "users": [
+    {
+      "userId": "user_001",
+      "balance": 15
+    },
+    {
+      "userId": "user_002",
+      "balance": 26
+    },
+    {
+      "userId": "user_003",
+      "balance": 30
+    },
+    {
+      "userId": "user_004",
+      "balance": 20
+    },
+    {
+      "userId": "user_005",
+      "balance": 10
+    }
+  ],
+  "notes": [
+    "This is PRIVATE data held by the exchange",
+    "The zk-SNARK proves the sum equals totalReserves WITHOUT revealing individual balances",
+    "Users can verify their balance is included without seeing others' balances"
+  ]
+}
